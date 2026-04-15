@@ -1,0 +1,67 @@
+LOCATIONS USED UNDER FEATURE DESTINATIONS:  
+PARIS FRANCE
+BALI INDONESIA
+TOKYO JAPAN 
+CAPE TOWN SOUTH AFRICA
+
+
+
+FONT USED:
+HEADING: MONTSERRAT
+BODY: LATO   
+
+
+
+COLORS USED:
+GOLD COLOR SHADE FOR HEADINGS:
+ color: #daa520;
+
+BODY COLOR: 
+ black
+
+PARAGRAPH: 
+ WHITE    
+ opacity: 0.8;
+
+THE PART WHERE I USED OVERLAY OF BLACK TO TRANSPARENT COLOR ON TOP OF THE BACKGROUND IMAGE(eg "trusted by travelers section"):  
+   background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.5));
+
+
+
+
+HOW I ACHIEVED THE HEADING DESIGN THAT MAKES IT SHOW HALFWAY AND OPEN WHEN HOVERED (you can copy exact code for unified look):
+
+.(class) h2 {
+    font-weight: 900;
+    height: 0.89em;
+    overflow: hidden;
+    color: #daa520;
+    transition: all 0.2s ease-in-out;
+}
+
+.(class) h2:hover{
+    font-weight: 900;
+    height: 1em;
+    overflow: hidden;
+    color: #daa520;
+} 
+
+
+
+HOW I STYLED THE PARAGRAPHS FOR A UNIFIED LOOK IN YOUR CODES:
+ p {
+    opacity: 0.8;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    color:black;
+}
+
+
+
+HOW I STYLED THE BUTTONS TO HAVE A BRIGHT MIDDLE SHADE AND DIM OUTER SHADE (eg the buttons on the footer section):
+background: linear-gradient(to left, #daa520, #e2c886, #daa520);
+
+
+
+
+PLEASE IF THERE IS ANY OTHER THING YOU NEED ME TO SPECIFY LET ME KNOW ON CHAT SO I CAN ADD IT HERE
